@@ -27,7 +27,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WV2Helper.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -35,8 +35,10 @@
     <None Include="WV2.def">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="License.md" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Readme.txt" />
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natstepfilter" />
   </ItemGroup>
 </Project>

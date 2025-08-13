@@ -18,12 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-
-<!-- Added to make the WebView2Loader Static. -->
-<PropertyGroup>
-  <WebView2LoaderPreference>Static</WebView2LoaderPreference>
-</PropertyGroup>
-
+  <!-- Added to make the WebView2Loader Static. -->
+  <PropertyGroup>
+    <WebView2LoaderPreference>Static</WebView2LoaderPreference>
+  </PropertyGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -90,7 +88,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <!--AdditionalDependencies>WebView2Loader.dll.lib;AdditionalDependencies)</AdditionalDependencies>-->
-
       <AdditionalLibraryDirectories>$(SolutionDir)\packages\Microsoft.Web.WebView2.1.0.3405.78\build\native\x86</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>WV2.def</ModuleDefinitionFile>
     </Link>
@@ -154,11 +151,12 @@
     <ClInclude Include="WV2Helper.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="License.md">
+      <SubType>
+      </SubType>
+    </None>
     <None Include="packages.config" />
     <None Include="WV2.def" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

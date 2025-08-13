@@ -1,4 +1,4 @@
-MIT License
+﻿# MIT License
 
 Copyright (c) 2025 xman.gb32@gmail.com
 
