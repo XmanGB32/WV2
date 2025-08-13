@@ -1,3 +1,5 @@
+![WV2 Banner](https://github.com/XmanGB32/WV2/blob/main/banner.png?raw=true)
+
 # Let's Connect
 
 We're building something cool with GFA-BASIC 32 and WebView2—and we'd love to hear from you.
