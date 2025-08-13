@@ -1,5 +1,9 @@
 # WebView2 Bridge for GFA-BASIC 32
 
+## Keywords
+
+WebView2, VB6, GFA-BASIC 32, ActiveX, COM, 32-bit, browser control, embedded web, legacy Windows, WebView2 bridge, VB6 alternative
+
 ## Overview
 
 This project provides a native C++ DLL that acts as a bridge between GFA-BASIC 32 and the Microsoft Edge WebView2 control. It allows GFA-BASIC developers to embed modern web content directly into their Windows desktop applications.
