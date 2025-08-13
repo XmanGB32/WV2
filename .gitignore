@@ -24,6 +24,7 @@ Debug/
 *.VC.db
 *.VC.opendb
 *.vscode/
+*.vs/
 *.cache
 *.aps
 *.ncb
