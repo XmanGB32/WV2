@@ -1,3 +1,5 @@
+[![Join Our Forum](https://img.shields.io/badge/Forum-Join-blue)](https://gb32.proboards.com)
+
 # WebView2 Bridge for GFA-BASIC 32
 
 ## Keywords
