@@ -1,4 +1,4 @@
-![WV2 Banner](https://github.com/XmanGB32/banner.jpg?raw=true)
+![WV2 Banner](https://github.com/XmanGB32/blob/master/banner.jpg?raw=true)
 
 # Let's Connect
 
