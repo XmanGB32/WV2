@@ -1,0 +1,7 @@
+LIBRARY WV2.DLL
+EXPORTS
+  CreateWebView2HostExW
+  NavigateWebView2W
+  ResizeWebView2
+  DestroyWebView2Host
+
