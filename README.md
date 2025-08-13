@@ -1,1 +1,62 @@
-# WV2
+# WebView2 Bridge for GFA-BASIC 32
+
+## Overview
+
+This project provides a native C++ DLL that acts as a bridge between GFA-BASIC 32 and the Microsoft Edge WebView2 control. It allows GFA-BASIC developers to embed modern web content directly into their Windows desktop applications.
+
+The DLL exposes a simple API for creating, resizing, navigating, and destroying WebView2 instances hosted inside standard Windows child windows.
+
+## Features
+
+- Embed WebView2 browser instances inside GFA-BASIC forms
+- Navigate to any URL programmatically
+- Resize and reposition the embedded browser
+- Cleanly destroy and release resources
+- Thread-safe management of multiple WebView2 instances
+
+## Requirements
+
+- Windows 10 or later
+- Microsoft Edge (Chromium-based)
+- WebView2 Runtime installed
+- Visual Studio 2022 (for building the DLL)
+- GFA-BASIC 32 (for integration)
+
+## Project Structure
+
+| File                  | Description                                 |
+|-----------------------|---------------------------------------------|
+| `WV2.sln`             | Visual Studio solution file                 |
+| `WV2.vcxproj`         | Visual Studio project file                  |
+| `WebView2Bridge.cpp`  | Main C++ source file                        |
+| `WebView2Bridge.h`    | Header for WebView2 wrapper class           |
+| `WV2Helper.cpp`       | Supporting C++ source file                  |
+| `WV2Helper.h`         | Header for helper functions                 |
+| `WV2.def`             | Module definition file for DLL exports      |
+| `packages.config`     | NuGet package references                    |
+| `Welcome.txt`         | Optional documentation or greeting          |
+| `LICENSE.txt`         | MIT License for open-source usage           |
+| `README.md`           | This file                                   |
+
+## Usage
+
+1. Build the DLL using Visual Studio 2022.
+2. In your GFA-BASIC 32 project, declare the DLL functions:
+   - `CreateWebView2HostExW`
+   - `NavigateWebView2W`
+   - `ResizeWebView2`
+   - `DestroyWebView2Host`
+3. Use these functions to embed and control WebView2 instances.
+
+## License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute it for any purpose, including commercial applications. See `LICENSE.txt` for details.
+
+## Contributing
+
+Pull requests and suggestions are welcome. If you find bugs or want to extend functionality, feel free to fork the project and submit improvements.
+
+## Contact
+
+For questions or feedback, please open an issue on the GitHub repository.
+
