@@ -35,7 +35,7 @@ The DLL exposes a simple API for creating, resizing, navigating, and destroying 
 | `WV2.def`             | Module definition file for DLL exports      |
 | `packages.config`     | NuGet package references                    |
 | `Welcome.txt`         | Optional documentation or greeting          |
-| `LICENSE.txt`         | MIT License for open-source usage           |
+| `LICENSE.md`          | MIT License for open-source usage           |
 | `README.md`           | This file                                   |
 
 ## Usage
