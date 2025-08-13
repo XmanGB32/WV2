@@ -1,4 +1,12 @@
-[![Join Our Forum](https://img.shields.io/badge/Forum-Join-blue)](https://gb32.proboards.com)
+# Let's Connect
+
+We're building something cool with GFA-BASIC 32 and WebView2—and we'd love to hear from you.
+
+Whether you're curious, tinkering, or just passing through, feel free to:
+
+🗨️ [Visit our developer forum](https://gb32.proboards.com)
+
+Ask questions, share ideas, or just see what others are up to. No pressure—just good conversation.
 
 # WebView2 Bridge for GFA-BASIC 32
 
